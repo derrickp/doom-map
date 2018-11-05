@@ -9,9 +9,16 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "@types/enzyme": "^3.1.14",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
     "@types/jest": "^23.3.9",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
     "jest": "^23.6.0",
     "parcel-bundler": "^1.10.3",
+    "raf": "^3.4.1",
     "ts-jest": "^23.10.4",
     "typescript": "^3.1.6"
   },
@@ -19,5 +26,9 @@
     "dev": "parcel ./src/index.html",
     "prod": "parcel build ./src/index.html",
     "test": "jest"
+  },
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
   }
 }
