@@ -5,7 +5,9 @@
       "noImplicitAny": true,
       "removeComments": false,
       "preserveConstEnums": true,
-      "sourceMap": true
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "strict": true
   },
   "include": [
       "src/**/*"
