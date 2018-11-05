@@ -5,8 +5,6 @@ export interface TempState {}
 
 export class Temp extends Component<TempProps, TempState> {
   render() {
-    return (
-      <div />
-    );
+    return <div />;
   }
 }
