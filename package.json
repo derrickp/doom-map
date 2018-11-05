@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "description": "A front-end map for showing doom metal bands.",
   "main": "index.js",
-  "repository": "TODO",
+  "repository": "https://github.com/derrickp/doom-map.git",
+  "homepage": "https://github.com/derrickp/doom-map",
   "author": "Derrick Plotsky <derrickplotsky@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "typescript": "^3.1.6"
+  }
 }
